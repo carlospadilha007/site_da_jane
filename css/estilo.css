@@ -1,29 +1,27 @@
 @charset "UTF-8"; 
-@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
 
 body{
     background: url("../imagens/fundo.jpg") no-repeat fixed;
+    background-size: 99%;
 }
 
 div#interface{
-    background-color: rgba(232, 230, 231, 0.9);
-    width: 1100px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 99%;
     margin: 0px auto;
-    padding: 10px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 /*Configuação de cabeçalho*/
 header#titulo{
-    font-family: 'Joti One', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15pt;
-    border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+    background-color: red;
+    background-size: 1366px;
     position: relative;
 }
 
 header#titulo h1{
-    color: gray;
-    text-shadow: 3px 4px 5px black;
+    color: yellow;
     text-indent: 160px;
     word-spacing: 7px;
 }
@@ -53,7 +51,6 @@ header#titulo nav#menu ol{
 
 header#titulo nav#menu li{
     display: inline-block;
-    background-color: #ccc9ca;
     padding: 2px;
     margin: 2px;
     transition: background-color 2s;
@@ -65,7 +62,7 @@ header#titulo nav#menu li:hover{
 
 
 header#titulo nav#menu a{
-    color: black;
+    color: yellow;
     text-decoration: none;
 }
 
@@ -74,122 +71,29 @@ header#titulo nav#menu a:hover{
     text-decoration: underline;
 }
 
-/*Configuração do seção esquerda*/
-
-section#esquerda{
-    display: block;
-    width: 350px;
-    float: left;
-    padding-top: 10px;
-    padding-left: 10px;
-    border-right: 1px dashed rgba(0, 0, 0, 0.3);
-}
 
 /*Configuração da seção do meio*/
 section#meio{
     display: block;
-    width: 450px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
     float: left;
     padding-top: 10px;
     padding-left: 10px;
-    border-right: 1px dashed rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
     height: 700px;
     overflow-y: hide;
-}
-
-section#meio div.zoom img{
-    border-radius: 15px;
-    width: 250px;
-    height: 150px;
-    border: 1px solid black;
-    left: 100px;
-    position: relative;
-    filter: grayscale(100%);
-    transition: all .6 cubic-bezier(1, 1, 1, 1);
-}
-
-section#meio div.zoom img:hover{
-    filter: sepia(80%);
-    transform: scale(1.5);
-    z-index: 1;
-}
-
-
-
-/*Configuração direita*/
-aside#direita{
-    display: block;
-    width: 250px;
-    float: left;
-    padding-top: 10px;
-    padding-left: 10px;
-    height: 700px;
-    overflow: scroll;
-}
-
-aside#direita div.noticias2{
-    border: 1px dashed rgba(0, 0, 0, 0.1);
-    background-color: #e8e0e0;
-    margin-top: 8px;
-}
-
-aside#direita div.noticias2 img{
-    width: 50px;
-    float: right;
-    padding: 15px 5px 1px 2px;
-}
-
-aside#direita div.noticias2 p{
-    font: 10pt Arial, sans-serif;
-    text-align: justify;
-    padding: 10px;
-}
-
-
-aside#direita div.noticias3{
-    border: 1px dashed rgba(0, 0, 0, 0.1);
-    background-color: #d2cbcb;
-    margin-top: 8px;
-}
-
-aside#direita div.noticias3 img{
-    width: 50px;
-    float: left;
-    padding: 15px 5px 1px 2px;
-}
-
-aside#direita div.noticias3 p{
-    font: 10pt Arial, sans-serif;
-    text-align: justify;
-    padding: 10px;
-}
-
-section#esquerda article.noticia{
-    font: 10pt Arial, sans-serif;
-    text-align: justify;
-}
-
-section#esquerda article.noticia h2.titulo{
-    font: inherit;
-    background-color: #ccc9ca;
-    padding: 10px;
-    font-weight: bold;
-    font-style: italic;
-    border-radius: 10px;
-}
-
-section#esquerda article.noticia h2.descricao{
-    font: 8pt Arial, sans-serif;
-    line-height: 15px;
+   
 }
 
 /*Conf rodapé*/
 
 footer#rodape{
     clear: both;
-    border-top: 1px dashed rgba(0, 0, 0, 0.3);
     text-align: center;
     height: 300px;
+    bottom: 0%;
+    background-color: red;
 }
 
 footer#rodape ol.itemLink{
@@ -198,6 +102,7 @@ footer#rodape ol.itemLink{
     width: 100%;
     padding: 5px;
     list-style-type: none;
+    color: yellow;
 }
 
 footer#rodape ol.itemLink li{
@@ -210,7 +115,7 @@ footer#rodape ol.itemLink li{
 footer#rodape ol.itemLink li a:link{
    font: 12pt Arial, sans-serif;
    text-decoration: none;
-   color: black;
+   color: yellow;
    font-style: italic;
 }
 
