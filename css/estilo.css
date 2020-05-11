@@ -6,20 +6,42 @@ body{
 
 div#interface{
     background-color: rgba(255, 255, 255, 0.1);
-    width: 100%;
     position: absolute;
+    height: 100%;
     top: 0;
-    right: 0;
     left: 0;
+    right: 0;
 }
+
+@font-face {
+    font-family: 'tarantinoregular';
+    src: url('../fontes/tarantino/tarantino-90j2-webfont.woff2') format('woff2'),
+         url('../fontes/tarantino/tarantino-90j2-webfont.woff2tarantino-90j2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'keetano_katanabold';
+    src: url('../fontes/keetano_katana/keetano_katana-webfont.woff2') format('woff2'),
+         url('../fontes/keetano_katana/keetano_katana-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 /*Configuação de cabeçalho*/
 header#titulo{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15pt;
+    font-family: tarantinoregular, Arial, Helvetica, sans-serif;
+    font-size: 12pt;
     background-color: red;
     position: relative;
+    width: 100%;
+    height: 30%;
 }
+
 
 header#titulo h1{
     color: yellow;
@@ -34,12 +56,12 @@ header#titulo img#logo{
 header#titulo nav#menu{
     display: block;
     font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: tarantinoregular, Arial, Helvetica, sans-serif;
     font-size: 12pt;
 }
 
 header#titulo nav#menu h1{
-    display: nome;
+    display: none;
 }
 
 header#titulo nav#menu ol{
@@ -47,24 +69,25 @@ header#titulo nav#menu ol{
     text-transform: uppercase;
     top: 70px;
     left: 700px;
-    position: absolute
+    position: absolute;
 }
 
 header#titulo nav#menu li{
     display: inline-block;
     padding: 2px;
-    margin: 2px;
-    transition: background-color 2s;
+    transition: font-family 1s ease;
 }
 
 header#titulo nav#menu li:hover{
-    background-color: gray;
+    font-family: keetano_katanabold;
+    font-size: 14pt;
+    color: yellow;
 }
 
 
 header#titulo nav#menu a{
-    color: yellow;
     text-decoration: none;
+    color: yellow;
 }
 
 header#titulo nav#menu a:hover{
@@ -77,55 +100,31 @@ header#titulo nav#menu a:hover{
 section#meio{
     display: block;
     background-color: rgba(255, 255, 255, 0.1);
-    width: 100%;
+    width: 88%;
     float: left;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 50px;
-    height: 700px;
+    text-align: justify;
+    padding-top: 5%;
+    padding-left: 7%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    height: 80%;
     overflow-y: hide;
    
 }
 
 /*Conf rodapé*/
 
+
+
 footer#rodape{
     clear: both;
     text-align: center;
-    height: 300px;
+    height: 25%;
     bottom: 0%;
     background-color: red;
     width: 100%;
     right: 0;
     left: 0;
-}
-
-footer#rodape ol.itemLink{
-    float: left;
-    margin: 5px;
-    width: 100%;
-    padding: 5px;
-    list-style-type: none;
-    color: yellow;
-}
-
-footer#rodape ol.itemLink li{
-    padding: 5px;
-    display: inline;
-    float: left;
-    width: 45%;
-}
-
-footer#rodape ol.itemLink li a:link{
-   font: 12pt Arial, sans-serif;
-   text-decoration: none;
-   color: yellow;
-   font-style: italic;
-}
-
-footer#rodape ol.itemLink li a:hover{
-    text-decoration: underline;
-    font-weight: bold;
 }
 
 footer#rodape nav#redes{
@@ -135,19 +134,19 @@ footer#rodape nav#redes{
 footer#rodape nav#redes ol{
     list-style: none;
     position: absolute;
-    top: 1100px;
-    left: 700px;
+    left: 65%;
+    margin-bottom: 0px;
+    top: 1190px;
 }
 
 footer#rodape nav#redes li{
     display: inline-block;
-    padding: 3px;
     margin: 2px;
 }
 
 footer#rodape nav#redes img{
-    width: 50px;
-    padding: 50px;
+    width: 40px;
+    padding: 40px;
     transition: filter .5s;
 }
 
@@ -155,8 +154,15 @@ footer#rodape nav#redes li img:hover{
     filter: contrast(20%) brightness(150%);
 }
 
-footer#rodape div.rodapeFinal{
+
+footer#rodape div#rodapeFinal{
     position: absolute;
-    top: 1100px;
+    top: 1280px;
+    left: 33%;
+
 }
- 
+
+footer#rodape div#rodapeFinal h5{
+    color: yellow;
+    font-size: 10pt;
+}
