@@ -31,6 +31,14 @@ div#interface{
 
 }
 
+@font-face {
+    font-family: 'trashhandregular';
+    src: url('../fontes/thashhand/trashhand-webfont.woff2') format('woff2'),
+         url('../fontes/thashhand/trashhand-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /*Configuação de cabeçalho*/
 header#titulo{
@@ -64,8 +72,8 @@ header#titulo nav#menu h1{
     display: none;
 }
 
-header#titulo nav#menu ol{
-    list-style: nome;
+header#titulo nav#menu ul{
+    list-style: none;
     text-transform: uppercase;
     top: 70px;
     left: 700px;
@@ -136,12 +144,11 @@ footer#rodape nav#redes ol{
     position: absolute;
     left: 65%;
     margin-bottom: 0px;
-    top: 1190px;
+    top: 1180px;
 }
 
 footer#rodape nav#redes li{
     display: inline-block;
-    margin: 2px;
 }
 
 footer#rodape nav#redes img{
@@ -157,7 +164,7 @@ footer#rodape nav#redes li img:hover{
 
 footer#rodape div#rodapeFinal{
     position: absolute;
-    top: 1280px;
+    top: 1270px;
     left: 33%;
 
 }
