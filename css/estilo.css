@@ -108,16 +108,15 @@ header#titulo nav#menu a:hover{
 section#meio{
     display: block;
     background-color: rgba(255, 255, 255, 0.1);
-    width: 88%;
+    width: 70%;
     float: left;
     text-align: justify;
-    padding-top: 5%;
-    padding-left: 7%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
     height: 80%;
     overflow-y: hide;
-   
+   padding-bottom: 80px;
 }
 
 /*Conf rodapé*/
@@ -125,6 +124,7 @@ section#meio{
 
 
 footer#rodape{
+    position: relative;
     clear: both;
     text-align: center;
     height: 25%;
@@ -144,7 +144,6 @@ footer#rodape nav#redes ol{
     position: absolute;
     left: 65%;
     margin-bottom: 0px;
-    top: 1180px;
 }
 
 footer#rodape nav#redes li{
@@ -164,7 +163,7 @@ footer#rodape nav#redes li img:hover{
 
 footer#rodape div#rodapeFinal{
     position: absolute;
-    top: 1270px;
+    bottom: 0px;
     left: 33%;
 
 }
