@@ -15,15 +15,6 @@
     font-style:normal;
 }
 
-@font-face {
-    font-family: 'allura';
-    src: url('fontes/alura/allura-webfont.woff2') format('woff2'),
-         url('fontes/alura/allura-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 div#interface{
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
@@ -134,41 +125,56 @@ footer#rodape{
     background-color: #ff007f;
     width: 100%;
 }
+footer#rodape div#rodape-elementos{
+    position: relative;
+    height: 100px;
+    bottom: 0;
+    margin-bottom: 0;
+}
 
-footer#rodape nav#redes{
+footer#rodape div#rodape-elementos nav#redes{
     display: block;
 }
 
-footer#rodape nav#redes ol{
+footer#rodape div#rodape-elementos nav#redes ol{
+    top: 40px;
     list-style: none;
     position: absolute;
-    left: 65%;
+    left: 85%;
     margin-bottom: 0px;
 }
 
-footer#rodape nav#redes li{
+footer#rodape div#rodape-elementos nav#redes li{
     display: inline-block;
 }
 
-footer#rodape nav#redes img{
-    width: 40px;
-    padding: 40px;
+footer#rodape div#rodape-elementos nav#redes img{
+    width: 32px;
+    padding: 7px;
     transition: filter .5s;
 }
 
-footer#rodape nav#redes li img:hover{
-    filter: contrast(20%) brightness(150%);
+footer#rodape div#rodape-elementos nav#redes img#crunchyroll{
+    border-radius: 50%;
+}
+
+footer#rodape div#rodape-elementos nav#redes img#twitter{
+    width: 34px;
+}
+
+footer#rodape div#rodape-elementos nav#redes li img:hover{
+    filter: contrast(0%) brightness(150%);
 }
 
 
-footer#rodape div#rodapeFinal{
+footer#rodape div#rodape-elementos div#rodapeFinal{
+    bottom: 10px;
     position: absolute;
-    bottom: 0px;
-    left: 33%;
+    left: 5%;
 
 }
 
 footer#rodape div#rodapeFinal h5{
-    color: yellow;
-    font-size: 10pt;
+    color: white;
+    font-size: 12pt;
 }
