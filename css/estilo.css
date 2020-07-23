@@ -1,138 +1,138 @@
-@charset "UTF-8"; 
+*{
+    margin: 0;
+    padding: 0;
+}
 
-body{
-    background-color: white;
+
+
+@font-face {
+    font-family:"Champagne";
+    src:url("fontes/CAC_Champagne/CACCHAMP.eot?") 
+    format("eot"),url("fontes/CAC_Champagne/CACCHAMP.woff") 
+    format("woff"),url("fontes/CAC_Champagne/CACCHAMP.ttf") 
+    format("truetype"),url("fontes/CAC_Champagne/CACCHAMP.svg#CACChampagne") 
+    format("svg");font-weight:normal;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: 'allura';
+    src: url('fontes/alura/allura-webfont.woff2') format('woff2'),
+         url('fontes/alura/allura-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 div#interface{
     background-color: rgba(255, 255, 255, 0.1);
     position: absolute;
     height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
+    width: 100%;
 }
 
-@font-face {
-    font-family: 'tarantinoregular';
-    src: url('../fontes/tarantino/tarantino-90j2-webfont.woff2') format('woff2'),
-         url('../fontes/tarantino/tarantino-90j2-webfont.woff2tarantino-90j2-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'keetano_katanabold';
-    src: url('../fontes/keetano_katana/keetano_katana-webfont.woff2') format('woff2'),
-         url('../fontes/keetano_katana/keetano_katana-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'trashhandregular';
-    src: url('../fontes/thashhand/trashhand-webfont.woff2') format('woff2'),
-         url('../fontes/thashhand/trashhand-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-/*Configuação de cabeçalho*/
 header#titulo{
     font-family: tarantinoregular, Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    background-color: red;
+    background-color: #ff007f;
     position: relative;
     width: 100%;
-    height: 30%;
+    height: 60px;
 }
-
 
 header#titulo h1{
-    color: yellow;
-    text-indent: 160px;
-    word-spacing: 7px;
-}
-header#titulo img#logo{
-    top: 20px;
-    left: 50px;
     position: absolute;
-}
-header#titulo nav#menu{
-    display: block;
-    font-weight: bold;
-    font-family: tarantinoregular, Arial, Helvetica, sans-serif;
-    font-size: 12pt;
+    top: 0px;
+    color: white;
+    text-indent: 110px;
+    word-spacing: 4px;
+    font-family: Champagne;
+    font-size: 35pt;
 }
 
-header#titulo nav#menu h1{
+
+header#titulo img#logo{
+    top: 4px;
+    left: 30px;
+    position: absolute;
+}
+
+
+.menu{
+    position: absolute;
+    top: 6px;
+    left: 480px;
+    background-color: #ff007f;
+    font-family: Helvetica, Arial, sans-serif;
+    display: block;
+    font-weight: bold;
+    font-size: 12pt;
+    
+}
+
+header#titulo nav.menu h1{
     display: none;
 }
 
-header#titulo nav#menu ul{
+.menu ul{
     list-style: none;
-    text-transform: uppercase;
-    top: 70px;
-    left: 700px;
-    position: absolute;
+    position: relative;
+    list-style: none;
+    text-transform: capitalize;
 }
-
-header#titulo nav#menu li{
-    display: inline-block;
-    padding: 2px;
-    transition: font-family 1s ease;
-}
-
-header#titulo nav#menu li:hover{
-    font-family: keetano_katanabold;
-    font-size: 14pt;
-    color: yellow;
-}
-
-
-header#titulo nav#menu a{
-    text-decoration: none;
-    color: yellow;
-}
-
-header#titulo nav#menu a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
-
-/*Configuração da seção do meio*/
-section#meio{
-    display: block;
-    background-color: rgba(255, 255, 255, 0.1);
-    width: 70%;
+.menu ul li{
+    width: 142px;
     float: left;
-    text-align: justify;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-    height: 80%;
-    overflow-y: hide;
-   padding-bottom: 80px;
 }
 
-/*Conf rodapé*/
+.menu ul li .excedente{
+    padding: 7px;
+    margin-top: 0;
+}
 
+.menu a{
+    padding: 16px;
+    display: block;
+    text-align: center;
+    background-color: #ff007f;
+    text-decoration: none;
+    color: white;
+}
 
+.menu ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul{
+    visibility: visible;
+}
+
+.menu a:hover{
+    background-color: #ff007f;
+    border-bottom: solid 3px #ccc;
+}
+.menu ul ul li{
+    float: none;
+    border-bottom: solid 1px #ccc;
+}
+
+.sub-menu a{
+    background-color: #ff69b4;
+}
+.sub-menu a:hover{
+    border-top: solid 1px #ccc;
+}
 
 footer#rodape{
-    position: relative;
+    position: absolute;
     clear: both;
     text-align: center;
-    height: 25%;
-    bottom: 0%;
-    background-color: red;
+    height: 100px;
+    bottom: 0;
+    margin-bottom: 0;
+    background-color: #ff007f;
     width: 100%;
-    right: 0;
-    left: 0;
 }
 
 footer#rodape nav#redes{
