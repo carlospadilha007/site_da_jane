@@ -1,0 +1,46 @@
+
+section#meio{
+    width: 100%;
+    position: absolute;
+}
+
+section#meio #meio-child{
+    position: relative;
+}
+
+.conteiner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.section{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    scroll-snap-align: start;
+}
+
+.section:nth-child(1){
+    background: url("../imagens/home/sinopse.jpg");
+}
+
+.section:nth-child(2){
+    background: url("../imagens/home/mugiwares.jpg");
+}
+
+.section:nth-child(3){
+    background: url("../imagens/home/almirates.jpg");
+}
+
+.section:nth-child(4){
+    background: url("../imagens/home/shichibukais.jpg");
+}
+
+.section:nth-child(5){
+    background: url("../imagens/home/youkous.jpg");
+    
+}
