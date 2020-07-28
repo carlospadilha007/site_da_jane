@@ -1,46 +1,36 @@
-
 section#meio{
+    background-color: white;
     width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+section#meio #div-sinopse{  
+    position: relative;
+}
+  
+
+ section#meio div#div-sinopse{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+section#meio div#div-sinopse > img{
+    width:100%; height: 100%;
+}
+
+section#meio div#div-sinopse > div{
     position: absolute;
+    left: 50%;
+    margin-left: -675px;
+    top: 100%; margin-top: -763px; 
+    background-color: crimson;
+    opacity: 0.5; 
+    width:100%; 
+    height: 100%; 
+    color: #FFF;
 }
 
-section#meio #meio-child{
-    position: relative;
-}
-
-.conteiner{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    scroll-behavior: smooth;
-    overflow: auto;
-    scroll-snap-type: y mandatory;
-}
-
-.section{
-    width: 100%;
-    height: 100vh;
-    background-size: cover;
-    scroll-snap-align: start;
-}
-
-.section:nth-child(1){
-    background: url("../imagens/home/sinopse.jpg");
-}
-
-.section:nth-child(2){
-    background: url("../imagens/home/mugiwares.jpg");
-}
-
-.section:nth-child(3){
-    background: url("../imagens/home/almirates.jpg");
-}
-
-.section:nth-child(4){
-    background: url("../imagens/home/shichibukais.jpg");
-}
-
-.section:nth-child(5){
-    background: url("../imagens/home/youkous.jpg");
-    
-}

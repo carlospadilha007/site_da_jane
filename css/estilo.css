@@ -116,7 +116,6 @@ header#titulo nav.menu h1{
 }
 
 footer#rodape{
-    position: absolute;
     clear: both;
     text-align: center;
     height: 100px;
