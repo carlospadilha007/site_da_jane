@@ -11,13 +11,12 @@ section#meio #div-sinopse{
 }
   
 
- section#meio div#div-sinopse{
+section#meio div#div-sinopse{
     position: relative; 
     width: 100%; 
     height: 100%;
-    padding: 0;
-    margin: 0;
 }
+
 section#meio div#div-sinopse > img{
     width:100%; height: 100%;
 }
@@ -28,6 +27,161 @@ section#meio div#div-sinopse > div{
     margin-left: -675px;
     top: 100%; margin-top: -763px; 
     background-color: crimson;
+    opacity: 0.5; 
+    width:100%; 
+    height: 100.1%; 
+    color: #FFF;
+}
+
+section#meio div#div-mugiwaras{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+section#meio div#div-mugiwaras > img{
+    width:100%; height: 100%;
+}
+
+section#meio div#div-mugiwaras > div{
+    position: absolute;
+    left: 50%;
+    margin-left: -675px;
+    top: 100%; margin-top: -763px; 
+    background-color: green;
+    opacity: 0.5; 
+    width:100%; 
+    height: 100%; 
+    color: #FFF;
+}
+
+section#meio div#div-marinha{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+section#meio div#div-marinha > img{
+    width:100%; height: 100%;
+}
+
+section#meio div#div-marinha > div{
+    position: absolute;
+    left: 50%;
+    margin-left: -675px;
+    top: 100%; margin-top: -805px; 
+    background-color: blue;
+    opacity: 0.5; 
+    width:100%; 
+    height: 100%; 
+    color: #FFF;
+}
+
+section#meio div#div-shichibukais{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+section#meio div#div-shichibukais > img{
+    width:100%; height: 100%;
+}
+
+section#meio div#div-shichibukais > div{
+    position: absolute;
+    left: 50%;
+    margin-left: -675px;
+    top: 100%; margin-top: -556px; 
+    background-color: orange;
+    opacity: 0.5; 
+    width:100%; 
+    height: 100%; 
+    color: #FFF;
+}
+
+section#meio div#div-yonkous{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+section#meio div#div-yonkous > img{
+    width:100%; height: 100%;
+}
+
+section#meio div#div-yonkous > div{
+    position: absolute;
+    left: 50%;
+    margin-left: -675px;
+    top: 100%; margin-top: -763px; 
+    background-color: brown;
+    opacity: 0.5; 
+    width:100%; 
+    height: 100%; 
+    color: #FFF;
+}
+
+
+section#meio div#div-akumaNoMi{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+section#meio div#div-akumaNoMi > img{
+    width:100%; height: 100%;
+}
+
+section#meio div#div-akumaNoMi > div{
+    position: absolute;
+    left: 50%;
+    margin-left: -675px;
+    top: 100%; margin-top: -763px; 
+    background-color: yellow;
+    opacity: 0.5; 
+    width:100%; 
+    height: 100%; 
+    color: #FFF;
+}
+
+section#meio div#div-midia{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+section#meio div#div-midia > img{
+    width:100%; height: 100%;
+}
+
+section#meio div#div-midia > div{
+    position: absolute;
+    left: 50%;
+    margin-left: -675px;
+    top: 100%; margin-top: -763px; 
+    background-color: green;
+    opacity: 0.5; 
+    width:100%; 
+    height: 100%; 
+    color: #FFF;
+}
+
+section#meio div#div-tecnicas{
+    position: relative; 
+    width: 100%; 
+    height: 100%;
+}
+
+section#meio div#div-tecnicas > img{
+    width:100%; height: 100%;
+}
+
+section#meio div#div-tecnicas > div{
+    position: absolute;
+    left: 50%;
+    margin-left: -675px;
+    top: 100%; margin-top: -763px; 
+    background-color: red;
     opacity: 0.5; 
     width:100%; 
     height: 100%; 
