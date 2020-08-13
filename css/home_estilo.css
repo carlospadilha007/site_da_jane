@@ -129,9 +129,9 @@ section#meio div#div-mugiwaras > div{
 }
 
 section#meio div#div-mugiwaras h1{
-    color: white;
+    color: whitesmoke;
     text-align: center;
-    font-size: 35pt;
+    font-size: 32pt;
 }
 
 section#meio div#div-mugiwaras div#content-mugiwaras{
@@ -223,11 +223,126 @@ section#meio div#div-marinha > div{
     left: 50%;
     margin-left: -675px;
     top: 100%; margin-top: -805px; 
-    background-color: blue;
-    opacity: 0.5; 
     width:100%; 
     height: 100%; 
     color: #FFF;
+}
+
+section#meio div#div-marinha h1{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+}
+
+section#meio div#div-marinha div#content-marinha{
+    margin: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container-marinha{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-gap: 15px;
+    margin: 0 auto;
+}
+
+.container-marinha .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: #fff;
+    color: #000;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+
+}
+
+.container-marinha .card .face{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-marinha .card .face.face1{
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.container-marinha .card .face.face1 h2{
+    margin: 0;
+    padding: 0;
+}
+
+.container-marinha .card .content-texto-marinha{
+    position: absolute;
+}
+.container-marinha .card .content-texto-marinha img{
+    width: 220px;
+    padding-left: 37px;
+}
+
+.container-marinha .card .content-texto-marinha h2{
+    text-align: center;
+}
+
+.container-marinha .card .content-texto-marinha p{
+    padding: 14px;
+    text-align: justify;
+}
+
+.container-marinha .card .face.face2{
+    background: #111;
+    transition: 0.5s;
+    align-items: center;
+}
+
+.container-marinha .card:nth-child(1) .face.face2{
+    background: linear-gradient(45deg, #3503ad, #f7308c);
+}
+
+.container-marinha .card:nth-child(2) .face.face2{
+    background: linear-gradient(45deg, #ccff00, #09afff);
+}
+
+.container-marinha .card:nth-child(3) .face.face2{
+    background: linear-gradient(45deg, #e91e63, #ffeb3b);
+}
+
+
+.container-marinha .card:hover .face.face2{
+    height: 60px;
+}
+
+.container-marinha .card .face.face2:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.container-marinha .card .face.face2 h2{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    color: #fff;
+    transition: 0.5s;
+    text-shadow: 0, 2px, 5px rgba(0, 0, 0, 0.2);
+}
+
+.container-marinha .card:hover .face.face2 h2{
+    font-size: 20px;
 }
 
 section#meio div#div-shichibukais{
