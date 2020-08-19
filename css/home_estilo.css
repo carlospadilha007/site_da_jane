@@ -162,7 +162,6 @@ section#meio div#div-mugiwaras div#content-mugiwaras div.conteiner .item div{
     top: 0;
 }
 
-
 .content-texto-mugiwaras{
     position: relative;
     color: black;
@@ -353,6 +352,7 @@ section#meio div#div-shichibukais{
 
 section#meio div#div-shichibukais > img{
     width:100%; height: 100%;
+    filter: blur(4px);
 }
 
 section#meio div#div-shichibukais > div{
@@ -360,11 +360,79 @@ section#meio div#div-shichibukais > div{
     left: 50%;
     margin-left: -675px;
     top: 100%; margin-top: -698px; 
-    background-color: orange;
-    opacity: 0.5; 
     width:100%; 
     height: 100%; 
     color: #FFF;
+}
+
+section#meio div#div-shichibukais div#content-shichibukais{
+    position: relative;
+}
+
+section#meio div#div-shichibukais div#content-shichibukais div.container-shichibukais{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section#meio div#div-shichibukais div#content-shichibukais div.container-shichibukais .item-shichibukais{
+    position: relative;
+    width: 220px;
+    height: 213px;
+    margin-top: 6px;
+    border: 5px solid #000; 
+    border-radius: 110px;
+    overflow: hidden;
+}
+
+section#meio div#div-shichibukais div#content-shichibukais div.container-shichibukais .item-shichibukais img{
+    width: 220px;
+    border-radius: 110px;
+    overflow: hidden;
+}
+
+.content-texto-shichibucais{
+    position: absolute;
+    width: 220px;
+    height: 213px;
+    margin: 0;
+    border-radius: 110px;
+    top: 0px;
+    text-align: center;
+    background-color: #000;
+}
+
+.content-texto-shichibucais h5{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+}
+
+.content-texto-shichibucais p{
+ 
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+    justify-content: center;
+}
+
+.efect-sombra-centro{}
+.efect-sombra-centro div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+    transform: scale(0);
+    transition-duration: .5s;
+}
+.efect-sombra-centro:hover div{
+    transform: scale(1);
+    transition-duration: .5s;
 }
 
 section#meio div#div-yonkous{
