@@ -1,0 +1,178 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+ }
+ 
+ body {
+    padding-bottom: 50px;
+    background-color: white;
+    min-height: 1600px;
+ }
+ 
+ .page-container {
+    padding: 20px 10px;
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    text-align: left;
+    background-color: white;
+    
+ }
+ 
+ .parallax {
+    background-attachment: fixed;
+ }
+ 
+ .hero {
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    padding: 10px;
+    width: 100%;
+    height: 660px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ }
+ 
+ .hero h2, .hero h3 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-shadow: 2px 2px 6px rgba(12,8,9,0.7);
+    position: absolute;
+ }
+ 
+ .hero h2 {
+    font-size: 90px;
+    top: 2%;
+    left: 10%;
+    
+ 
+ }
+ 
+ .hero h3 {
+    font-size: 90px;
+    bottom: 4%;
+    right: 10%;
+    font-weight: 500;
+ }
+ 
+
+ .london {
+    background-image: url("../site_da_jane/imagens/home/sinopse.jpg");
+ }
+ 
+ .amsterdam {
+    background-image: url("../site_da_jane/imagens/home/mugiwares.jpg");
+ }
+ 
+ .paris {
+    background-image: url("../site_da_jane/imagens/home/almirates.jpg");
+ }
+ .porto {
+    background-image: url("../site_da_jane/imagens/home/shichibukais.jpg");
+ }
+ 
+ .madrid {
+    background-image: url("../site_da_jane/imagens/home/yonkous.jpg");
+ }
+ 
+ .berlin {
+    background-image: url("../site_da_jane/imagens/home/akuma_no_mi.jpg");
+ }
+ 
+ .veneza {
+    background-image: url("../img/../site_da_jane/imagens/home/haki.jpg");
+ }
+ 
+ 
+ .page-container h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    margin: 0 0 20px 0;
+    color: #222222;
+ }
+ 
+ .page-container p {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.5px;
+    line-height: 26px;
+    font-size: 18px;
+    margin: auto;
+    color: #222222;
+    
+ }
+ 
+ .page-container p:not(:last-of-type) {
+    margin-bottom: 24px;
+ }
+ 
+ 
+ 
+ /* **********************************************************************************************
+ ***********************************   MEDIA QUERIES   ******************************************* 
+ ********************************************************************************************** */
+ 
+ 
+ 
+ /* Small Screens ****************************************************************************
+ /* max-width 640px *********************************************************************/
+ 
+ @media only screen and (max-width: 40em) {
+ 
+ 
+ }   
+ 
+ /* End of small Screens
+    
+    
+    
+ /* Medium Screens ***************************************************************************
+ /* min-width 641px and max-width 1023px ************************************************/
+ 
+ @media only screen and (min-width: 40.063em) and (max-width: 63.938em) {
+ 
+ 
+ }
+ 
+ /* End of Medium Screens
+    
+    
+    
+    
+ /* Large Screens ****************************************************************************
+ /* min-width 1024px and max-width 1440px ***********************************************/
+ 
+ @media only screen and (min-width: 64em) and (max-width: 90em) { 
+ 
+    .page-container {
+       width: 1024px;
+       
+    }
+       
+ }
+ 
+ /* End of Large Screens
+    
+    
+    
+ /* Extra Large Screens **********************************************************************
+ /* min-width 1441px ********************************************************************/
+ 
+ @media only screen and (min-width: 90.063em) {
+       
+    .page-container {
+       width: 1320px;
+    }
+       
+             
+ }
+ 
+ /* End of Extra Large Screens
+ 
+ 
