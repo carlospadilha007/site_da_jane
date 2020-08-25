@@ -1,0 +1,42 @@
+.content{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+
+.content p{
+    font-size: 21.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 230px;
+    padding-right: 230px;
+    text-align: justify;
+}
+
+span.recuo{
+    padding-left: 50px;
+}
+
+.mundo{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/sinopse/mapa_mundi.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.racas1{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/home/home-sinopse/raças.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.racas2{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/sinopse/racas2.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

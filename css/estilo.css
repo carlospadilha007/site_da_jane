@@ -51,6 +51,7 @@ header#titulo img#logo{
 
 .menu{
     position: absolute;
+    z-index: 1;
     top: 6px;
     left: 600px;
     background-color: #ff007f;
