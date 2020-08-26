@@ -1,0 +1,51 @@
+.sinopse{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/marinha/aokiji.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+.deveres{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/marinha/fujitora.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.nova_era{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/marinha/akainu.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.almirantes{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/marinha/aokiji_akainu_Kizaru.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.vice_almirantes{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/marinha/smoker.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.fuzileiros{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/marinha/tashigi2.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.final{
+    width: 100%;
+    height: 800px;
+    background: url("../imagens/marinha/aokiji_vs_akainu.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
