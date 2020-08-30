@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 section.meio{
     width: 100%;
 }
@@ -5,19 +6,20 @@ section.meio{
 .content{
     width: 100%;
     position: relative;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .bloco-imagem{
     background: url("../imagens/home/corsarios.jpg") no-repeat;
     background-size: cover;
     width: 50%;
-    height: 750px;
+    height: 850px;
     float: left;
 }
 
 .bloco-texto{
     width: 50%;
-    height: 750px;
+    height: 850px;
     float: left;
 }
 
