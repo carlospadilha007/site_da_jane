@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 .cp9img1{
     width: 100%;
     height: 768px;
@@ -20,4 +21,11 @@
     background: url("../imagens/tecnicas/marinha/rob_lucy.png") no-repeat;
     background-size: cover;
     background-attachment: fixed;
+}
+
+.content{
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
 }
