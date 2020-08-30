@@ -1,0 +1,14 @@
+.observacao{
+    background: url("../imagens/tecnicas/haki/observacao.jpg") no-repeat;
+    background-size: cover;
+}
+
+.armamento{
+    background: url("../imagens/tecnicas/haki/armamento.jpg") no-repeat;
+    background-size: cover;
+}
+
+.rei{
+    background: url("../imagens/tecnicas/haki/rei.jpg") no-repeat;
+    background-size: cover;
+}

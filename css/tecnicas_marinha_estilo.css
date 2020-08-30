@@ -1,0 +1,23 @@
+.cp9img1{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/tecnicas/marinha/cp9.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cp9img2{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/tecnicas/marinha/CP9.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.rob_lucy{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/tecnicas/marinha/rob_lucy.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

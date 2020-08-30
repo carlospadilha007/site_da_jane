@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.mihawk{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/mihawk.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.crocodille{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/crocodille.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.moria{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/moria.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.kuma{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/kuma.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hancock{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/boa_hancock.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.jinbe{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/jinbe.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.doflamingo{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/doflamingo.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.barba_negra{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/barba_negra.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.law{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/law.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.buggy{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/buggy.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.weevil{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/edward_weevil.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.all{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/shichibukais/all_shichibukais.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.content{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.content h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.content p{
+    font-size: 21.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+    text-align: justify;
+}

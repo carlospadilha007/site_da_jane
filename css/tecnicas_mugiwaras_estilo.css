@@ -1,0 +1,19 @@
+.luffy{
+    background: url("../imagens/tecnicas/chapeus_de_palha/luffy.jpg") no-repeat;
+    background-size: cover;
+}
+
+.zoro{
+    background: url("../imagens/tecnicas/chapeus_de_palha/zoro.jpg") no-repeat;
+    background-size: cover;
+}
+
+.sanji{
+    background: url("../imagens/tecnicas/chapeus_de_palha/sanjji.jpg") no-repeat;
+    background-size: cover;
+}
+
+.jinbe{
+    background: url("../imagens/tecnicas/chapeus_de_palha/jinbei.png") no-repeat;
+    background-size: cover;
+}

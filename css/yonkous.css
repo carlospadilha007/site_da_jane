@@ -1,0 +1,47 @@
+.barba_branca{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/yonkoes/barba_branca.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.barba_negra{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/yonkoes/barba_negra.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.big_mom{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/yonkoes/big_mom.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.kaido{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/yonkoes/kaido.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.shanks{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/yonkoes/shanks.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.all{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/yonkoes/all_yonkous.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
