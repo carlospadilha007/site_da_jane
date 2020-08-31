@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.zoan{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/akuma_no_mi/zoan.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.logia{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/akuma_no_mi/logia.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.paramecia{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/akuma_no_mi/paramecia.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.akumas_no_mi{
+    width: 100%;
+    height: 768px;
+    background: url("../imagens/akuma_no_mi/akuma_no_mi.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.content h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.content h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.content p{
+    font-size: 21.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+    text-align: justify;
+}
